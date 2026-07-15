@@ -146,11 +146,6 @@ uv sync --all-extras
 uv run pytest tests/ -v
 uv run ruff check src/ tests/
 ```
-
-## Resume Bullets
-
-- Developed an LLM-powered forecasting agent interpreting industrial datasets through semantic schema understanding, reducing feature engineering time from days to seconds.
-- Built automated ML pipelines combining language models with time-series forecasting models (GBM / TimesFM) for operational prediction with R² > 0.85 on held-out data.
 - Designed graceful LLM/heuristic fallback architecture enabling full offline operation when API keys are unavailable.
 
 ## License
